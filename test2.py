@@ -9,7 +9,6 @@ mp_hands = mp.solutions.hands
 cap = cv.VideoCapture(0)
 
 screenWidth, screenHeight = pag.size()
-id = 0
 
 with mp_hands.Hands(max_num_hands=1,model_complexity=0,
                     min_detection_confidence=0.8, 
@@ -52,10 +51,8 @@ with mp_hands.Hands(max_num_hands=1,model_complexity=0,
                                         mp_drawing.DrawingSpec(color=(217, 228, 212), thickness=2, circle_radius=3),
                                         )
                 landmarks = hand.landmark
-                print('Landmarks',landmarks)
                 for id, landmark in enumerate(landmarks):
                     if id == 8:
-                        print('Index',landmark)
                         x = int(landmark.x*frameWidth)
                         y = int(landmark.y*frameHeight)
                         cv.circle(img=frame, center=(x,y), radius=30, color=(255,0,0))
