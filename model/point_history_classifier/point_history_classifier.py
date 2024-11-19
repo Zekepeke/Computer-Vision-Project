@@ -33,7 +33,7 @@ class PointHistoryClassifier(object):
         self,
         length=1286,
         num_classes=5,
-        model_path='/Users/esequiellinares/codeAndPrograms/MLProjects/handGesture/project/model/point_history_classifier/feedforward_model.pth',
+        model_path='/project/model/point_history_classifier/feedforward_model.pth',
         score_th=0.1,
         invalid_value=0,
         num_threads=1,
