@@ -43,7 +43,7 @@ class LandmarkPointsClassifier(object):
         self,
         length=42,
         num_classes=4,
-        model_path='/Users/esequiellinares/codeAndPrograms/MLProjects/handGesture/project/model/landmark_points_classifier/epoch_50.pt',
+        model_path='/project/model/landmark_points_classifier/epoch_50.pt',
         score_th=0.4,
         invalid_value=0,
         num_threads=1,
