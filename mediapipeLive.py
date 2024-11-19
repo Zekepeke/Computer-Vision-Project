@@ -62,7 +62,7 @@ def main():
     # Read the model
     
     # TODO WORK WITH MODEL
-    point_history_classifier = PointHistoryClassifier()
+    # point_history_classifier = PointHistoryClassifier()
     landmark_points_classifier = LandmarkPointsClassifier(num_classes=len(landmark_points_classifier_labels), length=42)
     
     # point_history_classifier.run()
