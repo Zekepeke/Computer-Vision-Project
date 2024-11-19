@@ -1,0 +1,2 @@
+from model.point_history_classifier.point_history_classifier import PointHistoryClassifier
+from model.landmark_points_classifier.landmark_points_classifier import LandmarkPointsClassifier
