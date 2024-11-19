@@ -6,7 +6,7 @@ A project for gesture recognition using Mediapipe, OpenCV, and neural networks. 
 
 ## Features
 - **Live Gesture Recognition**: Use `mediapipeLive.py` for real-time hand gesture detection.
-- **Custom Gesture Training**: Train a neural network on labeled gesture videos using Mediapipe.
+- **Custom Gesture Training**: Train a neural network on labeled landmarks using Mediapipe.
 
 ---
 
