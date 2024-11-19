@@ -15,6 +15,10 @@ A project for gesture recognition using Mediapipe, OpenCV, and neural networks. 
    ```bash
    git clone <repository_url>
    cd Computer-Vision-Project
-2. run mediapipeLive.py
+2. Ensure all dependencies are installed. You may use pip to install required libraries:
+   ```bash
+      pip install -r requirements.txt
+
+3. run mediapipeLive.py
    ```bash
    python3 mediapipeLive.py
