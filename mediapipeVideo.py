@@ -44,7 +44,7 @@ def main_video():
     mode = 1
     
     # Directory where .mov files are stored
-    directory = 'videos/point_history'
+    directory = 'videos/FROM_LOCAL_PATH'
     
     # Iterate through all files in the directory
     for filename in os.listdir(directory):
