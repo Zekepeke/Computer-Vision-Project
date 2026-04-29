@@ -1,5 +1,5 @@
-mediapipe==0.10.21  # Adjust version based on compatibility
-opencv-python==4.8.0.74  # OpenCV version
-numpy==1.24.2  # NumPy version
-pyautogui==0.9.55  # For GUI automation
-torch==2.0.1  # PyTorch
+mediapipe~=0.10.21 # Adjust version based on compatibility
+opencv-python~=4.8.0  # OpenCV version
+numpy~=1.24.2 # NumPy version
+pyautogui~=0.9.54  # For GUI automation
+torch~=2.0.1 # PyTorch
