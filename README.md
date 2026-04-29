@@ -10,6 +10,22 @@ A project for gesture recognition using Mediapipe, OpenCV, and neural networks. 
 
 ---
 
+## Creating a Virtual Environment (venv)
+
+### Linux/macOS
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Windows
+```cmd
+python -m venv venv
+venv\Scripts\activate
+```
+
+---
+
 ## How to Run Live Gesture Recognition
 1. Clone this repository and navigate to its directory:
    ```bash
